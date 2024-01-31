@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video to GIF Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gif.js/dist/gif.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Video to GIF Converter</h1>
+        <input type="file" id="videoInput" class="button" accept="video/*">
+        <button id="convertButton" class="button">Convert to GIF</button>
+        <br>
+        <video id="video" controls></video>
+        <br>
+        <img id="outputGif" />
+        <a id="downloadLink" class="download-button" style="display: none;">Download GIF</a>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

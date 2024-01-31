@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#video {
+    max-width: 100%;
+    height: auto;
+}
+
+#outputGif {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;  /* ボタンの大きさを調整 */
+    margin: 10px 0;  /* マージンを追加 */
+    color: white;
+    background-color: #28a745;  /* 背景色 */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;  /* フォントサイズを大きく */
+}
+
+.button:hover {
+    background-color: #218838;  /* ホバー時の背景色 */
+}
+
+
+.download-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
